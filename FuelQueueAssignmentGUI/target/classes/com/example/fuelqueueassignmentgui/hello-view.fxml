@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="500.0" style="-fx-background-color: #272929;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fuelqueueassignmentgui.HelloController">
+   <children>
+      <Button fx:id="SearchButton" layoutX="136.0" layoutY="151.0" mnemonicParsing="false" onAction="#SearchButtonOnClick" prefHeight="37.0" prefWidth="173.0" style="-fx-border-color: red;" text="Search For a Passenger">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="ViewButton" layoutX="136.0" layoutY="243.0" mnemonicParsing="false" onAction="#ViewButtonOnClick" prefHeight="37.0" prefWidth="173.0" style="-fx-border-color: red;" text="View FuelQueue Details">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="57.0" layoutY="38.0" prefHeight="71.0" prefWidth="330.0" text="Welcome To the Fuel Program!" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="881.0" prefWidth="1116.0" style="-fx-background-color: #272929;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fuelqueueassignmentgui.HelloController">
+   <children>
+      <TextArea fx:id="FuelQueues" editable="false" layoutX="151.0" layoutY="143.0" prefHeight="562.0" prefWidth="348.0" style="-fx-border-color: red;" />
+      <TextArea fx:id="WaitingQueue" layoutX="631.0" layoutY="143.0" prefHeight="562.0" prefWidth="358.0" style="-fx-border-color: red;" />
+      <Label alignment="CENTER" layoutX="348.0" layoutY="14.0" prefHeight="74.0" prefWidth="383.0" text="FuelQueue Details" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="266.0" layoutY="106.0" prefHeight="29.0" prefWidth="119.0" text="Fuel Queues" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="734.0" layoutY="106.0" prefHeight="29.0" prefWidth="152.0" text="Waiting Queue" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="744.0" layoutY="745.0" mnemonicParsing="false" onAction="#DisplayQueueDetails" prefHeight="44.0" prefWidth="119.0" style="-fx-border-color: red;" text="View Details">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="92.0" layoutY="745.0" mnemonicParsing="false" onAction="#ViewMain" prefHeight="44.0" prefWidth="119.0" style="-fx-border-color: red;" text="Go Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="876.0" layoutY="745.0" mnemonicParsing="false" onAction="#DisplayWaitingQueue" prefHeight="44.0" prefWidth="135.0" style="-fx-border-color: red;" text="View Waiting Queue " textAlignment="CENTER" />
+   </children>
+</AnchorPane>

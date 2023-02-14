@@ -1,0 +1,6 @@
+isira,edirisinghe,2850,20
+manthila,bandara,183770,10
+vidath,amunugama,29866,10
+ravindu,nadeera,71654,20
+adithya,gunawardhane,1028,10
+isira,subasinghe,2918,10
